@@ -5,7 +5,7 @@ $(document).ready(function() {
 
   $('#text-one').keypress(function(event) {
     if(event.which == 13) {
-      if(!$(this).val()) {
+      if(!$(this).val() || !(/^[A-Za-z]+$/.test($(this).val()))) {
         $('.text-one').hide();
         $('.error').show();
         $('#text-error').addClass('color-border');
@@ -15,7 +15,18 @@ $(document).ready(function() {
   });
 
   // select dropdown
-  $('#select-box').addClass('sprite-select-up');
+  $('#select-box-up').addClass('sprite-select-up').on('click', function() {
+    $('.select-box').hide();
+    $('.select-open').show();
+  });
+
+  $('#select-box-down').addClass('sprite-select-down');
+  $('.select-open').hide();
+
+  $('#select-box-down').on('click', function() {
+    $('.select-box').show();
+    $('.select-open').hide();
+  });
 
   //checkbox
   $('#checkbox').addClass('sprite-unchecked').on('click', function() {

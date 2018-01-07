@@ -11,13 +11,21 @@
 </head>
 <body>
   <h3 class="text-one">text input</h3>
-  <input type="text" name="" class="text-one" id="text-one" placeholder="placeholder text" required>
+  <input type="text" name="" class="text-one" id="text-one" placeholder="characters only please" required>
 
   <h3 class="error">text input w/ validation error</h3>
-  <input type="text" name="" class="error" id="text-error" placeholder="placeholder text" required>
+  <input type="text" name="" class="error" id="text-error" placeholder="characters allowed only!" required>
   
-  <h3>select box</h3>
-  <div id="select-box"><p>please select an option...</p></div>
+  <h3 class="select-box">select box</h3>
+  <div class="select-box" id="select-box"><p>please select an option...</p><div id="select-box-up"></div></div>
+
+  <h3 class="select-open">select box - open</h3>
+  <div class="select-open" id="select-open"><p class="select-open"></p><div id="select-box-down"></div></div>
+  <div class="select-open light">option 1</div>
+  <div class="select-open dark">option 2</div>
+  <div class="select-open light">option 3</div>
+  <div class="select-open dark">option 4</div>
+  <div class="select-open light">option 5</div>
 
   <h3>checkbox</h3>
   <div id="checkbox"></div>
