@@ -1,0 +1,46 @@
+.sprite-select-up {
+  background: url('form-elements-sprite.png') no-repeat 75.163% 49.558%;
+	background-size: 727px 321px;
+	width: 39px;
+	height: 39px;
+}
+
+.sprite-select-down {
+  background: url('form-elements-sprite.png') no-repeat 82.946% 49.558%;
+	background-size: 727px 321px;
+	width: 38px;
+	height: 39px;
+}
+
+.sprite-unchecked {
+  background: url('form-elements-sprite.png') no-repeat 12.22% 49.585%;
+	background-size: 727px 321px;
+	width: 81px;
+	height: 80px;
+}
+
+.sprite-checked {
+  background: url('form-elements-sprite.png') no-repeat 29.466% 49.585%;
+	background-size: 727px 321px;
+	width: 81px;
+	height: 80px;
+}
+
+.sprite-radio-clicked {
+  background: url('form-elements-sprite.png') no-repeat 63.142% 50.84%;
+	background-size: 727px 321px;
+	width: 84px;
+	height: 83px;
+}
+
+.sprite-radio-clear {
+  background: url('form-elements-sprite.png') no-repeat 45.221% 50.84%;
+	background-size: 727px 321px;
+	width: 84px;
+	height: 83px;
+}
+
+.align-right {
+  position: relative;
+  left: 13%;
+}

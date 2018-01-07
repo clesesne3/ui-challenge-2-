@@ -1,0 +1,24 @@
+/* select dropdown */
+#select-box {
+  width: 27%;
+  border: 1px solid darkgray;
+}
+
+/* text input */
+.color-border {
+  border: 1px solid red;
+}
+
+.text-color {
+  color: red;
+}
+
+/* submit button */
+.bkgrd-color {
+  background-color: lightgray;
+  color: slategrey;
+}
+.bkgrd-color-click {
+  background-color:slategrey;
+  color: white;
+}
