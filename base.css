@@ -1,0 +1,14 @@
+input[type=text] {
+  padding: 1em;
+  width: 25%; 
+}
+
+#submit {
+  width: 25%;
+  padding: 1em;
+  text-align: center;
+}
+
+p {
+  margin-right: 4em;
+}

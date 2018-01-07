@@ -1,0 +1,52 @@
+/* select dropdown */
+#select-box {
+  width: 20%;
+  border: 1px solid darkgray;
+}
+#select-open {
+  width: 20%;
+}
+
+.select-box {
+  display: flex;
+}
+.select-open {
+  display: flex;
+}
+
+div.select-open {
+  width: 20%;
+  border: 1px solid darkgray;
+  padding: 1em;
+}
+
+p.select-open {
+  margin-right: 14em;
+}
+
+.dark {
+  background-color: slategrey;
+}
+
+.light {
+  background-color: lightgray;
+}
+
+/* text input */
+.color-border {
+  border: 1px solid red;
+}
+
+.text-color {
+  color: red;
+}
+
+/* submit button */
+.bkgrd-color {
+  background-color: lightgray;
+  color: slategrey;
+}
+.bkgrd-color-click {
+  background-color:slategrey;
+  color: white;
+}
